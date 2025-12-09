@@ -155,3 +155,22 @@ MIT License - see LICENSE file for details
 
 **POWERED BY L8AB SYSTEMS** ⚡
 
+
+## 🚀 Quick Start
+
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
+
+## 📚 Documentation
+
+Full documentation available at [docs/](docs/)
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
+**POWERED BY L8AB SYSTEMS** ⚡
