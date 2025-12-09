@@ -1,8 +1,31 @@
-vendor/
+# Dependencies
 node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
 .env
-storage/logs/*
-storage/framework/cache/*
-storage/framework/sessions/*
-storage/framework/views/*
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
