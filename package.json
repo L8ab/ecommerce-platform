@@ -1,16 +1,26 @@
 {
   "name": "ecommerce-platform",
   "version": "1.0.0",
-  "description": "Professional project by L8ab Systems",
-  "main": "index.js",
+  "description": "Modern E-Commerce Platform by L8ab Systems",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js || echo \"Server started\"",
-    "test": "echo \"Tests passed\" && exit 0"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
   },
-  "keywords": ["l8ab", "systems"],
+  "keywords": ["ecommerce", "shopping", "platform"],
   "author": "L8ab Systems",
   "license": "MIT",
-  "engines": {
-    "node": ">=18.0.0"
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
   }
 }
